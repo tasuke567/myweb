@@ -1,45 +1,66 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Online Resume</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
-    <h1>Angela Yu's Portfolio</h1>
-    <h2>I'm a Web Developer</h2>
-    <hr/>
-    <h3>
-    <a href="./public/movie-ranking.html">Movie Ranking Project</a>
-</h3>
-    <img src="./assets/images/movie-ranking.png" width="200px" alt="movie-ranking">
-    <h3>
-    <a href="./public/birthday-invite.html">Birthday Invite Project</a>
-</h3>
-    <img src="./assets/images/birthday-invite.png" width="200px" alt="birthday-invite">
-    <h3>
-    <a href="./public/Webpage.html">My Web Page</a>
-</h3>
-    <img src="./assets/images/Screenshot 2023-06-27 101151.png" width="200px" alt="my-web-page">
-<hr/>
-<a href="./public/about.html">About Me</a>
-<a href="./public/contact.html">Contact Me</a>
+    <div class="container">
+        <h1 class="mt-4">Online Resume</h1>
+
+        <section>
+            <h2>Objective</h2>
+            <p class="lead">I am a dedicated and motivated web developer seeking opportunities to utilize my skills in
+                building dynamic and user-friendly websites.</p>
+
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Science in Computer Science - XYZ University - 2018-2022</li>
+                <li>Web Development Certification - ABC Coding Bootcamp - 2022</li>
+            </ul>
+
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <h5>Web Developer Intern - XYZ Company - 2022-2023</h5>
+                    <ul>
+                        <li>Assisted in the development and maintenance of company websites.</li>
+                        <li>Collaborated with the design team to implement UI/UX improvements.</li>
+                        <li>Performed testing and bug fixes on existing web applications.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>Skills</h2>
+            <ul class="list-unstyled">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Git</li>
+            </ul>
+
+            <h2>Awards/Certifications</h2>
+            <ul class="list-unstyled">
+                <li>Web Development Excellence Award - XYZ University - 2022</li>
+                <li>JavaScript Certification - Codecademy - 2022</li>
+            </ul>
+
+            <img src="your-photo.jpg" alt="Your Name" class="img-fluid rounded-circle mt-4 mb-4"
+                style="max-width: 200px;">
+
+            <a href="projects.html" class="btn btn-primary mr-3">Projects</a>
+            <a href="contact.html" class="btn btn-primary">Contact</a>
+        </section>
+    </div>
 
 
+    <footer>
+        <p>&copy; 2023 Thapanakorn. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
